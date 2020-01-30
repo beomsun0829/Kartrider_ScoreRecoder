@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
         var score_var = 0
         var pan_count = 0
         var array = Array(1000,{0})
-        var arr_idx = 0
 
 
 
@@ -95,17 +94,17 @@ class MainActivity : AppCompatActivity() {
 
             score_num.text = "현재점수 : " + score_var.toString()
             pan_count++
-            pan_text.text=pan_count.toString() + " ROUND"
+            pan_text.text = pan_count.toString() + " ROUND"
         }
 
 
 
         redo_button_event.setOnClickListener {
-            if(pan_count == 0) {
+            if(pan_count != 0) {
                 score_var -= array[pan_count]
-                array[pan_count] = 0
+                array[pan_count - 1] = 0
                 pan_count--
-                pan_text.text = pan_count.toString()
+                pan_text.text = pan_count.toString() + " ROUND"
                 score_num.text = "현재점수 : " + score_var.toString()
             }
 
