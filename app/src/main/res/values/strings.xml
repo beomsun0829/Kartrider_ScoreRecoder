@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Kartrider_ScoreRecoder</string>
+    <string name="maintext">카트라이더 리그 점수기록앱</string>
+    <string name="nowscore">현재 점수 : 0</string>
+    <string name="_1st_Text">1등</string>
+    <string name="_2st_Text">2등</string>
+    <string name="_3st_Text">3등</string>
+    <string name="_4st_Text">4등</string>
+    <string name="_5st_Text">5등</string>
+    <string name="_6st_Text">6등</string>
+    <string name="_7st_Text">7등</string>
+    <string name="_8st_Text">8등</string>
+    <string name="touch_and_record">터치하여 등수 기록</string>
+    <string name="reset">RESET</string>
+    <string name="판수">0 ROUND</string>
+    <string name="pan_record">0</string>
+    <string name="redo_button">되돌리기</string>
+    <string name="log_check">기록확인</string>
+
+</resources>
